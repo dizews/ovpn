@@ -1,6 +1,7 @@
 ## init server ##
 
-docker-compose run --rm ovpn ovpn_genconfig -u udp://ip
+docker-compose run --rm ovpn ovpn_genconfig -u udp://ip-address
+
 docker-compose run --rm ovpn ovpn_initpki
 
 ## create user ##
